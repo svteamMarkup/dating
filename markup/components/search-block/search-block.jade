@@ -1,0 +1,15 @@
+mixin search-block(data)
+  .search-block
+    .search-block-map
+      .search-block-map__title Люди вокруг вас, желающие <br>секса прямо сейчас
+
+      .search-block-map__layout
+        img(src="%=static=%images/general/map.jpg" alt="")
+
+    .search-block-users
+      - for (var i = 0; i < 12; i++)
+        .user-block
+          .user-block__img
+            img(src="http://placehold.it/90x90")
+          a(href="#" title="").user-block__name Лена
+          .user-block__meta 32, Москва

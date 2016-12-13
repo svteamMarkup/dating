@@ -1,0 +1,22 @@
+doctype html
+html(class="no-js", lang="ru")
+
+    include ../components/head/head
+    include ../components/header/header
+    include ../components/main-content/main-content
+    include ../components/advantages/advantages
+    include ../components/search-partner/search-partner
+    include ../components/search-block/search-block
+    include ../components/questions/questions
+    include ../components/footer/footer
+
+    head
+        +head(head.defaults)
+    body._gray
+        +question-first
+        +question-second
+        +question-third
+        +question-fourth
+        +question-fifth
+        +question-sixth
+        script(src='%=static=%js/main%=hash=%%=min=%.js')

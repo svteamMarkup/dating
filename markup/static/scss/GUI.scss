@@ -1,0 +1,96 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.wrapper {
+  width: 1233px;
+  margin: auto;
+
+  @include cf;
+}
+
+.content {
+  width: 914px;
+  &._p4-1 {
+    max-width: 746px;
+  }
+}
+
+.white-dashed {
+  padding: 6px;
+
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(#000, .15);
+  &__wrapper {
+    border: 1px dashed #d6c5b3;
+  }
+}
+
+.select {
+  width: 100%;
+  height: 42px;
+
+  color: rgba(#000, .5);
+  background: #f9f9f9;
+
+  font-family: $A45R;
+  font-size: rem-calc(20);
+}
+
+.checkbox {
+  span {
+    padding-left: 5px;
+
+    color: #433f42;
+
+    font-family: $A45R;
+  }
+  &._small {
+    span {
+      font-size: rem-calc(12);
+    }
+  }
+}
+
+.button {
+  text-transform: uppercase;
+
+  color: #fff;
+  border: 0;
+
+  font-family: $A65B;
+  font-size: rem-calc(27);
+
+  @include transition;
+  &._angle {
+    background-color: transparent;
+
+    @include bg($angle-btn);
+  }
+  &:hover {
+    opacity: .9;
+  }
+}
+
+
+.button-gradient {
+  display: block;
+
+  width: 255px;
+  height: 56px;
+
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #fff;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #2b93c4, #165ab7);
+
+  font-family: $A65B;
+  font-size: rem-calc(26);
+  line-height: 56px;
+  &:hover {
+    background: #2b93c4;
+  }
+}

@@ -1,0 +1,155 @@
+mixin question-first(data)
+  .white-dashed.question._first
+    .white-dashed__wrapper
+      .question__title Выберите цель знакомства:
+
+      .questions-flex._wrap
+        .question-block-first
+          .question-block-first__img
+            img(src="%=static=%images/general/sex.jpg" alt="")
+          a(href="#" title="").button-gradient Секс
+
+        .question-block-first
+          .question-block-first__img
+            img(src="%=static=%images/general/romance.jpg" alt="")
+          a(href="#" title="").button-gradient Романтика
+
+        .question-block-first
+          .question-block-first__img
+            img(src="%=static=%images/general/marriage.jpg" alt="")
+          a(href="#" title="").button-gradient Брак
+
+        .question-block-first
+          .question-block-first__img
+            img(src="%=static=%images/general/friendship.jpg" alt="")
+          a(href="#" title="").button-gradient Дружба
+
+mixin question-second(data)
+  .white-dashed.question._second
+    .white-dashed__wrapper
+      .question__title Покажите мне:
+
+      .questions-flex
+        .question-block-second
+          .question-block-second__img
+            img(src="%=static=%images/general/girls.jpg" alt="")
+          a(href="#" title="").button-gradient Девушек
+
+        .question-block-second
+          .question-block-second__img
+            img(src="%=static=%images/general/mens.jpg" alt="")
+          a(href="#" title="").button-gradient Парней
+
+mixin question-third(data)
+  .white-dashed.question._third
+    .white-dashed__wrapper
+      .question__title Как близко должен быть <br>партнер?
+
+      .questions-flex._wrap
+        .question-block-third
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label В радиусе 2 км
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label В радиусе 10 км
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label В одном городе
+
+        .question-block-third
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label В другой стране
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Не имеет значения
+
+        .question-block-third-button
+          a(href="#" title="").button-gradient Продолжить
+
+
+mixin question-fourth(data)
+  .white-dashed.question._fourth
+    .white-dashed__wrapper
+      .question__title Какой у вас <br>тип телосложения?
+
+      .questions-flex._wrap
+        .question-block-fourth
+          .question-checkbox._big.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Нормальное
+
+        .question-block-fourth
+          .question-checkbox._big.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Спортивное
+
+        .question-block-fourth
+          .question-checkbox._big.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Полное
+
+        .question-block-fourth-button
+          a(href="#" title="").button-gradient Продолжить
+
+mixin question-fifth(data)
+  .white-dashed.question._fifth
+    .white-dashed__wrapper
+      .question__title Выберите ВАШ пол:
+
+      .questions-flex
+        .question-block-fifth
+          .question-block-fifth__img
+            img(src="%=static=%images/general/female.png" alt="")
+          a(href="#" title="").button-gradient Девушка
+        .question-block-fifth
+          .question-block-fifth__img
+            img(src="%=static=%images/general/male.png" alt="")
+          a(href="#" title="").button-gradient Парень
+
+mixin question-sixth(data)
+  .white-dashed.question._third
+    .white-dashed__wrapper
+      .question__title Меня возбуждает:
+
+      .questions-flex._wrap
+        .question-block-third
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Классический секс
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label BDSM
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Порно
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Фетиш
+
+        .question-block-third
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Зрелые
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Молоденькие
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Пары
+
+          .question-checkbox.js-checkbox
+            input(type="checkbox" value="").question-checkbox__field.js-checkbox-field
+            span.question-checkbox__label Оральные ласки
+
+        .question-block-third-button
+          a(href="#" title="").button-gradient Продолжить

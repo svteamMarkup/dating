@@ -1,0 +1,157 @@
+
+
+.search-progress {
+  display: flex;
+
+  max-width: 93%;
+  margin: auto;
+
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__title {
+    width: 100%;
+    margin-bottom: 5px;
+
+    text-transform: uppercase;
+
+    color: #666;
+
+    font-family: $A65B;
+    font-size: rem-calc(13);
+  }
+  &__percent {
+    color: #7b7b7b;
+
+    font-family: $A65B;
+    font-size: rem-calc(16);
+  }
+  &__find-text {
+    position: relative;
+
+    margin-left: 10px;
+    padding-left: 22px;
+
+    text-transform: uppercase;
+
+    color: #66bb38;
+
+    font-family: $A65B;
+    font-size: rem-calc(16);
+    &:before {
+      position: absolute;
+      left: 0;
+
+      display: block;
+
+      content: "";
+      transform: scale(.6);
+
+      @include bg($checkbox);
+    }
+  }
+}
+
+.search-progress-line {
+  display: flex;
+  overflow: hidden;
+
+  width: 442px;
+  height: 28px;
+  margin-bottom: 10px;
+
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+
+  align-items: center;
+  justify-content: flex-start;
+  &__item {
+    width: 16px;
+    height: 22px;
+    margin: 0 2px;
+
+    background: #81cb59;
+  }
+}
+
+.registration-finished {
+  position: relative;
+
+  max-width: 91%;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 25px;
+
+  text-transform: uppercase;
+
+  color: #5c6557;
+
+  font-family: $A65B;
+  font-size: rem-calc(16);
+  &:before {
+    position: absolute;
+    left: 0;
+
+    display: block;
+
+    content: "";
+    transform: scale(.6);
+
+    @include bg($checkbox);
+  }
+}
+
+.registration-rules {
+  max-width: 93%;
+  margin: auto;
+  margin-top: 15px;
+
+  font-family: Arial;
+  &__title {
+    position: relative;
+
+    padding-left: 25px;
+
+    color: #ff4b3a;
+
+    font-size: rem-calc(16);
+    font-weight: 700;
+    &:before {
+      position: absolute;
+      left: 0;
+
+      display: block;
+
+      content: "";
+
+      @include bg($att);
+    }
+  }
+  &__list {
+    position: relative;
+
+    margin: 10px 0;
+    margin-left: 25px;
+    padding-left: 18px;
+
+    color: #333;
+
+    font-size: rem-calc(13);
+    &:before {
+      position: absolute;
+      top: 2px;
+      left: 0;
+
+      display: block;
+
+      content: "";
+
+      @include bg($list);
+    }
+  }
+}
+
+.registration-button {
+  margin-left: 20px;
+  margin-top: 20px;
+}

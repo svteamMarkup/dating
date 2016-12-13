@@ -1,0 +1,17 @@
+@include font-face(CoreSansA35Light, "../fonts/CoreSansA35Light");
+$A35L: 'CoreSansA35Light', Helvetica, Arial, sans-serif;
+
+@include font-face(CoreSansA45Regular, "../fonts/CoreSansA45Regular");
+$A45R: 'CoreSansA45Regular', Helvetica, Arial, sans-serif;
+
+@include font-face(CoreSansA45Regular-Italic, "../fonts/CoreSansA45Regular-Italic");
+$A45I: 'CoreSansA45Regular-Italic', Helvetica, Arial, sans-serif;
+
+@include font-face(CoreSansA55Medium, "../fonts/CoreSansA55Medium");
+$A55M: 'CoreSansA55Medium', Helvetica, Arial, sans-serif;
+
+@include font-face(CoreSansA65Bold, "../fonts/CoreSansA65Bold");
+$A65B: 'CoreSansA65Bold', Helvetica, Arial, sans-serif;
+
+@include font-face(CoreSansA75ExtraBold, "../fonts/CoreSansA75ExtraBold");
+$A75EB: 'CoreSansA75ExtraBold', Helvetica, Arial, sans-serif;

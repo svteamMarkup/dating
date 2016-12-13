@@ -1,0 +1,15 @@
+// Common styles of the project
+body {
+  &._girl {
+    background: url(%=static=%general/girl.jpg) no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+  }
+  &._gray {
+    background: #ededec;
+  }
+  &._girl-man {
+    background: url(%=static=%general/girl-man.jpg) no-repeat;
+    background-position: center top;
+  }
+}

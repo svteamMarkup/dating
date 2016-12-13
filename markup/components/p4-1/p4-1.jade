@@ -1,0 +1,28 @@
+mixin p4-1(data)
+  .wrapper
+    .content.main-content._p4-1
+      +advantages()
+      .white-dashed.question._first
+        .white-dashed__wrapper
+          .question__title Выберите цель знакомства:
+
+          .questions-flex._wrap
+            .question-block-first
+              .question-block-first__img
+                img(src="%=static=%images/general/sex.jpg" alt="")
+              a(href="#" title="").button-gradient Секс
+
+            .question-block-first
+              .question-block-first__img
+                img(src="%=static=%images/general/romance.jpg" alt="")
+              a(href="#" title="").button-gradient Романтика
+
+            .question-block-first
+              .question-block-first__img
+                img(src="%=static=%images/general/marriage.jpg" alt="")
+              a(href="#" title="").button-gradient Брак
+
+            .question-block-first
+              .question-block-first__img
+                img(src="%=static=%images/general/friendship.jpg" alt="")
+              a(href="#" title="").button-gradient Дружба

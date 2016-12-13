@@ -1,0 +1,50 @@
+mixin searxh-page(data)
+  .wrapper
+    .content.main-content._p4-1
+      +advantages()
+      .white-dashed.question
+        .white-dashed__wrapper
+          .question__title ищем девушек (23-40) в г. Москва
+
+          .search-progress
+            .search-progress__title девушек из г. Москва
+
+            .search-progress-line
+              - for (var i = 0; i < 22; i++)
+                .search-progress-line__item
+
+            .search-progress__percent 100%
+
+            .search-progress__find-text Найдено 345
+
+          .search-progress
+            .search-progress__title В возрасте 23-45
+
+            .search-progress-line
+              - for (var i = 0; i < 22; i++)
+                .search-progress-line__item
+
+            .search-progress__percent 100%
+
+            .search-progress__find-text Найдено 150
+
+          .search-progress
+            .search-progress__title Подбор по сексуальным предпочтениям 
+
+            .search-progress-line
+              - for (var i = 0; i < 18; i++)
+                .search-progress-line__item
+
+            .search-progress__percent 100%
+
+            .search-progress__find-text Найдено 102
+
+          .registration-finished Регистрация разрешена
+
+          .registration-rules
+            .registration-rules__title Перед регистрацией, ознакомьтесь с нашими основными правилами:
+            .registration-rules__list Не афишируйте, если увидите знакомых вам людей
+            .registration-rules__list Уважайте желания пользователей.
+            .registration-rules__list Мы не несем ответственность за ваши отношения между другими пользователями
+
+          a(href="#" title="").button-gradient.registration-button Подтверждаю

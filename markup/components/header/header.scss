@@ -1,0 +1,84 @@
+.header {
+  height: 76px;
+
+  background: url(%=static=%general/header-bg.png) repeat-x center;
+  &__wrapper {
+    display: flex;
+
+    padding-top: 11px;
+
+    align-items: center;
+    @extend .wrapper;
+    justify-content: space-between;
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+  &__logo {
+    display: block;
+
+    margin-right: 55px;
+
+    @include bg($logo-header);
+  }
+  &__group {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.header-online {
+  display: flex;
+
+  font-size: rem-calc(14);
+
+  align-items: center;
+  justify-content: flex-start;
+  &__title {
+    margin-right: 16px;
+
+    font-family: $A35L;
+  }
+  &__item {
+    position: relative;
+
+    margin-right: 30px;
+    padding-left: 20px;
+
+    font-family: $A55M;
+    &:before {
+      left: 0;
+
+      display: block;
+
+      content: "";
+
+      @include vertical-center;
+    }
+    &._male {
+      &:before {
+        @include bg($male);
+      }
+    }
+    &._female {
+      &:before {
+        @include bg($female);
+      }
+    }
+  }
+}
+
+.header-registered {
+  color: #505050;
+
+  font-family: $A35L;
+  font-size: rem-calc(14);
+  strong {
+    color: #000;
+
+    font-family: $A55M;
+  }
+}

@@ -1,0 +1,22 @@
+doctype html
+html(class="no-js", lang="ru")
+
+    include ../components/head/head
+    include ../components/header/header
+    include ../components/main-content/main-content
+    include ../components/advantages/advantages
+    include ../components/search-partner/search-partner
+    include ../components/search-block/search-block
+    include ../components/p4-1/p4-1
+    include ../components/new-profiles/new-profiles
+    include ../components/footer/footer
+
+    head
+        +head(head.defaults)
+    body._girl-man
+        +header
+        +p4-1
+        +new-profiles
+        +footer()._p4-1
+
+        script(src='%=static=%js/main%=hash=%%=min=%.js')

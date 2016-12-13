@@ -1,0 +1,14 @@
+mixin new-profiles(data)
+  .new-profiles
+    .new-profiles__wrapper
+      .new-profiles__title Новые анкеты
+      .new-profiles__all Всего  зарегистрировано: 
+        strong 9 071 333
+
+      .new-profiles__list
+        - for (var i = 0; i < 9; i++)
+          .new-profiles-item
+            .new-profiles-item__img
+              img(src="http://placehold.it/90x90")
+            .new-profiles-item__name Лена
+            .new-profiles-item__meta 32, Москва

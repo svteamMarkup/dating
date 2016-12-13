@@ -1,0 +1,82 @@
+mixin search-partner(data)
+  .white-dashed.search-partner
+    .white-dashed__wrapper
+
+      .search-partner__top
+        .search-partner-column._first
+          .search-partner-column__title._big Вы:
+          .search-partner-column__item
+            select.select
+              option Девушка
+              option Парень
+
+        .search-partner-column._second
+          .search-partner-column__title._big Ищите
+          .search-partner-column__item
+            .checkbox
+              input(type="checkbox" value="")
+              span девушку
+            .checkbox
+              input(type="checkbox" value="")
+              span парня
+            .checkbox
+              input(type="checkbox" value="")
+              span пару
+
+        .search-partner-column._third
+          .search-partner-column__title В возрасте
+          .search-partner-column__item
+            select.select
+              option 18
+              option 19
+
+            .search-partner-column__separator
+
+            select.select
+              option 25
+              option 30
+
+        .search-partner-column._fourth
+          .search-partner-column__title Город
+          .search-partner-column__item
+            select.select
+              option Москва
+
+      .search-partner__bottom
+
+        .search-partner-sexual
+          .search-partner-sexual__title Ваши сексуальные предпочтения
+          .search-partner-sexual__column
+            .checkbox._small
+              input(type="checkbox" value="")
+              span Фетиш
+            .checkbox._small
+              input(type="checkbox" value="")
+              span Зрелые
+            .checkbox._small
+              input(type="checkbox" value="")
+              span Молоденькие 
+
+          .search-partner-sexual__column
+            .checkbox._small
+              input(type="checkbox" value="")
+              span Порно
+            .checkbox._small
+              input(type="checkbox" value="")
+              span Оральные ласки
+            .checkbox._small
+              input(type="checkbox" value="")
+              span BDSM
+
+          .search-partner-sexual__column
+            .checkbox._small
+              input(type="checkbox" value="")
+              span Фетиш
+            .checkbox._small
+              input(type="checkbox" value="")
+              span Зрелые
+            .checkbox._small
+              input(type="checkbox" value="")
+              span Молоденькие 
+
+          input(type="submit" value="Начать подбор").button._angle

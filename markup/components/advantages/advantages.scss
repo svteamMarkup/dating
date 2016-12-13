@@ -1,0 +1,30 @@
+.advantages {
+  display: flex;
+
+  padding: 45px 0;
+
+  align-items: center;
+  justify-content: space-between;
+  &__item {
+    position: relative;
+
+    box-sizing: border-box;
+    width: 300px;
+    padding-right: 20px;
+    padding-left: 34px;
+
+    color: #666;
+
+    font-family: $A45R;
+    font-size: rem-calc(15);
+    line-height: rem-calc(18);
+    &:before {
+      position: absolute;
+      left: 0;
+
+      content: "";
+
+      @include bg($check);
+    }
+  }
+}
