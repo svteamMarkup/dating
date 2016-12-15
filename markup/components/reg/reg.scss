@@ -1,0 +1,131 @@
+.reg {
+  height: 445px;
+  .white-dashed__wrapper {
+    height: 415px;
+  }
+  &__title {
+    margin-bottom: 10px;
+  }
+  &__subtitle {
+    margin-bottom: 20px;
+    padding-left: 50px;
+
+    text-transform: uppercase;
+
+    color: #666;
+
+    font-family: $A35L;
+    font-size: rem-calc(13);
+  }
+}
+
+.reg-form {
+  padding-left: 50px;
+  &__row {
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  &__label {
+    margin-right: 25px;
+
+    text-transform: uppercase;
+
+    color: #81cb59;
+
+    font-family: $A65B;
+    font-size: rem-calc(21);
+    line-height: 1;
+  }
+  &__field {
+    input {
+      box-sizing: border-box;
+      width: 320px;
+      height: 40px;
+      padding-left: 10px;
+
+      border: 1px solid #cfcfcf;
+      background: #f9f9f9;
+    }
+    span {
+      display: block;
+
+      margin-top: 5px;
+      margin-bottom: 20px;
+
+      color: #999;
+
+      font-family: $A35L;
+      font-size: rem-calc(13);
+    }
+  }
+  &__cost {
+    margin-left: 160px;
+
+    text-decoration: none;
+
+    color: #666;
+    border-bottom: 1px solid rgba(#666, .5);
+
+    font-family: $A45R;
+    font-size: rem-calc(13);
+    &:hover {
+      border-bottom-color: #666;
+    }
+  }
+  &__check {
+    display: flex;
+
+    margin-top: 12px;
+    margin-left: 160px;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+    input {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    span {
+      color: #666;
+
+      font-family: $A45R;
+      font-size: rem-calc(13);
+    }
+  }
+  &__submit {
+    display: block;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+  }
+  &__no {
+    display: block;
+
+    margin-left: 160px;
+
+    color: #666;
+
+    font-family: Arial;
+    font-size: rem-calc(13);
+  }
+}
+
+.reg-rules {
+  overflow-y: scroll;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 80%;
+  max-height: 133px;
+  margin: 15px auto 0;
+  padding: 10px 15px;
+
+  opacity: .66;
+  color: #2c1c2d;
+  background: #fcfbf9;
+
+  font-size: rem-calc(12);
+}

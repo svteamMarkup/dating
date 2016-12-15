@@ -4,12 +4,128 @@
 		"selected_items":
 		[
 			[
-				"top",
-				"top-bar"
+				"marign",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"re",
+				"registration-rules"
 			],
 			[
 				"pad",
-				"padding-right"
+				"padding-left"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"sea",
+				"search-progress"
+			],
+			[
+				"new",
+				"new-profiles"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"qu",
+				"question__title"
+			],
+			[
+				"que",
+				"question-block-first\t(questions.scss)"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"A",
+				"A65B"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"c",
+				"c91b48"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"seal",
+				"search-partner-sexual"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"ad",
+				"advantages__item"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"hed",
+				"header"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"heade",
+				"header-online"
+			],
+			[
+				"head",
+				"header-online"
+			],
+			[
+				"backgorund-",
+				"background-size"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"top",
+				"top-bar"
 			],
 			[
 				"vi",
@@ -20,32 +136,12 @@
 				"vertical-align"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"b",
 				"b5b5b5"
 			],
 			[
 				"r",
 				"rgba"
-			],
-			[
-				"visi",
-				"visible"
-			],
-			[
-				"marign",
-				"margin-right"
-			],
-			[
-				"margin",
-				"margin-right"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"js-cha",
@@ -58,10 +154,6 @@
 			[
 				"border-col",
 				"border-color"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"d",
@@ -78,10 +170,6 @@
 			[
 				"marg",
 				"margin-bottom"
-			],
-			[
-				"re",
-				"relative"
 			],
 			[
 				"we",
@@ -110,10 +198,6 @@
 			[
 				"f",
 				"font-size"
-			],
-			[
-				"ad",
-				"advertise-content-metrika"
 			],
 			[
 				"medi",
@@ -192,10 +276,6 @@
 				"margin-right"
 			],
 			[
-				"min",
-				"min-width"
-			],
-			[
 				"ti",
 				"title"
 			],
@@ -246,10 +326,6 @@
 			[
 				"al",
 				"align-bottom"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"mi",
@@ -344,20 +420,12 @@
 				"blockquote"
 			],
 			[
-				"bord",
-				"border-bottom"
-			],
-			[
 				"ca",
 				"categories-main"
 			],
 			[
 				"small",
 				"small-12\t(index.jade)"
-			],
-			[
-				"tex",
-				"text-transform"
 			],
 			[
 				"exp",
@@ -446,74 +514,6 @@
 			[
 				"fini",
 				"finishCityFind"
-			],
-			[
-				"val",
-				"val"
-			],
-			[
-				"get",
-				"getDistance"
-			],
-			[
-				"im",
-				"important"
-			],
-			[
-				"tr",
-				"transform\t(top-menu.scss)"
-			],
-			[
-				"servi",
-				"services-content"
-			],
-			[
-				"flee",
-				"fleet-content"
-			],
-			[
-				"tar",
-				"tarifs-content"
-			],
-			[
-				"tit",
-				"title__text"
-			],
-			[
-				"to",
-				"toString"
-			],
-			[
-				"ci",
-				"cityStart\t(data.js)"
-			],
-			[
-				"foo",
-				"footer-phones__item"
-			],
-			[
-				"header-p",
-				"header-phones__item"
-			],
-			[
-				"cost",
-				"costDistance"
-			],
-			[
-				"cos",
-				"costDistance"
-			],
-			[
-				"point",
-				"pointStart"
-			],
-			[
-				"console",
-				"console.log();"
-			],
-			[
-				"tari",
-				"tarifs"
 			]
 		]
 	},
@@ -591,10 +591,49 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/svteam/dating/markup"
+		"/Users/extiser/git/svteam/dating/markup",
+		"/Users/extiser/git/svteam/dating/markup/components",
+		"/Users/extiser/git/svteam/dating/markup/components/searxh-page",
+		"/Users/extiser/git/svteam/dating/markup/pages",
+		"/Users/extiser/git/svteam/dating/markup/static",
+		"/Users/extiser/git/svteam/dating/markup/static/js",
+		"/Users/extiser/git/svteam/dating/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/svteam/dating/markup/pages/searxh.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.scss",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/common.scss",
+		"/Users/extiser/git/svteam/dating/markup/pages/4-1.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/header/header.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.scss",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.jade",
+		"/Users/extiser/git/svteam/dating/markup/pages/questions.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.js",
+		"/Users/extiser/git/svteam/dating/markup/static/js/libraries/jquery-3.1.0.min.js",
+		"/Users/extiser/git/svteam/dating/markup/pages/index.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.js",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/header/header.jade",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/vars.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/default_component_scheme.json",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/top-bar/top-bar.jade",
 		"/Users/extiser/git/sovets-pro/markup/modules/top-bar/top-bar.scss",
 		"/Users/extiser/git/sovets-pro/markup/pages/index.jade",
@@ -689,40 +728,7 @@
 		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.jade",
 		"/Users/extiser/git/sovets-pro/markup/pages/experts-questions.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-favourite/expert-favourite.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-articles.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-favourite/expert-favourite.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-favourite/experts-favourite.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-favourite.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-become/expert-become.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-become/expert-become.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-profile.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/registration.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/registration-page/registration-page.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/login-page/login-page.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/login-page-form/login-page-form.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/login-page-form/login-page-form.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-page/experts-page.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-rate-item/experts-rate-item.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-page/experts-page.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-rate-item/experts-rate-item.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/lifehacks/lifehacks.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/show-more/show-more.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/lifehacks/lifehacks.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/best-experts/best-experts.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/best-experts/best-experts.scss",
-		"/Users/extiser/git/izeta-site/markup/modules/menu/menu.jade",
-		"/Users/extiser/git/izeta-site/markup/pages/collection.jade",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/common.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/breadcrumbs/breadcrumbs.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/breadcrumbs/breadcrumbs.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/tips-hours/tips-hours.scss",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/etc/zodiac-icons.scss",
-		"/Users/extiser/git/sovets-2015/tars-config.js",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/article-block-small/article-block-small.jade",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/_izeta_settings.scss"
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-favourite/expert-favourite.jade"
 	],
 	"find":
 	{
