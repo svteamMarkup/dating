@@ -1,10 +1,19 @@
 .reg {
   height: 445px;
+    @media screen and (max-width: 800px) {
+      height: 606px;
+    }
   .white-dashed__wrapper {
     height: 415px;
+    @media screen and (max-width: 800px) {
+      height: 576px;
+    }
   }
   &__title {
     margin-bottom: 10px;
+    @media screen and (max-width: 800px) {
+      margin-bottom: 20px;
+    }
   }
   &__subtitle {
     margin-bottom: 20px;
@@ -16,16 +25,30 @@
 
     font-family: $A35L;
     font-size: rem-calc(13);
+    @media screen and (max-width: 800px) {
+      padding-left: 0;
+      width: 90%;
+      margin: 0 auto 20px;
+      text-align: center;
+    }
   }
 }
 
 .reg-form {
   padding-left: 50px;
+    @media screen and (max-width: 800px) {
+      width: 90%;
+      margin: auto;
+      padding-left: 0;
+    }
   &__row {
     display: flex;
 
     align-items: flex-start;
     justify-content: flex-start;
+    @media screen and (max-width: 800px) {
+      display: block;
+    }
   }
   &__label {
     margin-right: 25px;
@@ -37,6 +60,15 @@
     font-family: $A65B;
     font-size: rem-calc(21);
     line-height: 1;
+    @media screen and (max-width: 800px) {
+      margin-right: 0;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+      br {
+        display: none;
+      }
+    }
   }
   &__field {
     input {
@@ -47,6 +79,10 @@
 
       border: 1px solid #cfcfcf;
       background: #f9f9f9;
+    @media screen and (max-width: 800px) {
+      height: 56px;
+      text-align: center;
+    }
     }
     span {
       display: block;
@@ -58,6 +94,10 @@
 
       font-family: $A35L;
       font-size: rem-calc(13);
+    @media screen and (max-width: 800px) {
+      font-size: rem-calc(11);
+      text-align: center;
+    }
     }
   }
   &__cost {
@@ -67,6 +107,9 @@
 
     color: #666;
     border-bottom: 1px solid rgba(#666, .5);
+    @media screen and (max-width: 800px) {
+      margin-left: 0;
+    }
 
     font-family: $A45R;
     font-size: rem-calc(13);
@@ -82,6 +125,9 @@
 
     align-items: flex-start;
     justify-content: flex-start;
+    @media screen and (max-width: 800px) {
+      margin-left: 0;
+    }
     input {
       width: 20px;
       height: 20px;
@@ -100,6 +146,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 160px;
+    @media screen and (max-width: 800px) {
+      margin-left: 0;
+    }
   }
   &__no {
     display: block;
@@ -110,6 +159,9 @@
 
     font-family: Arial;
     font-size: rem-calc(13);
+    @media screen and (max-width: 800px) {
+      margin-left: 0;
+    }
   }
 }
 

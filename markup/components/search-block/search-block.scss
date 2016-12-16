@@ -4,10 +4,23 @@
   margin-top: 36px;
 
   justify-content: space-between;
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
 }
 
 .search-block-map {
   width: 494px;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+  &__layout {
+    img {
+      @media screen and (max-width: 800px) {
+        width: 100%;
+      }
+    }
+  }
   &__title {
     position: relative;
 
@@ -42,11 +55,18 @@
   align-items: stretch;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    margin-top: 20px;
+  }
 }
 .user-block {
   width: 90px;
 
   text-align: center;
+  @media screen and (max-width: 800px) {
+    margin-top: 10px;
+  }
   &__img {
     margin-bottom: 5px;
   }

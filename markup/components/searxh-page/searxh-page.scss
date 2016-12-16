@@ -9,6 +9,9 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media screen and (max-width: 800px) {
+    margin-bottom: 10px;
+  }
   &__title {
     width: 100%;
     margin-bottom: 5px;
@@ -88,6 +91,9 @@
 
   font-family: $A65B;
   font-size: rem-calc(16);
+  @media screen and (max-width: 800px) {
+    margin-top: 25px;
+  }
   &:before {
     position: absolute;
     left: 0;
@@ -107,6 +113,9 @@
   margin-top: 15px;
 
   font-family: Arial;
+  @media screen and (max-width: 800px) {
+    margin-top: 25px;
+  }
   &__title {
     position: relative;
 
@@ -152,6 +161,10 @@
 }
 
 .registration-button {
-  margin-left: 20px;
   margin-top: 20px;
+  margin-left: 20px;
+  @media screen and (max-width: 800px) {
+    width: 90%;
+    margin: 25px auto 0;
+  }
 }

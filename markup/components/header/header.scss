@@ -14,6 +14,9 @@
     &:after {
       display: none;
     }
+    @media screen and (max-width: 800px) {
+      display: block;
+    }
   }
   &__logo {
     display: block;
@@ -21,12 +24,18 @@
     margin-right: 55px;
 
     @include bg($logo-header);
+    @media screen and (max-width: 800px) {
+      margin: auto;
+    }
   }
   &__group {
     display: flex;
 
     align-items: center;
     justify-content: flex-start;
+    @media screen and (max-width: 800px) {
+      display: block;
+    }
   }
 }
 
@@ -37,6 +46,9 @@
 
   align-items: center;
   justify-content: flex-start;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
   &__title {
     margin-right: 16px;
 
@@ -76,6 +88,9 @@
 
   font-family: $A35L;
   font-size: rem-calc(14);
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
   strong {
     color: #000;
 

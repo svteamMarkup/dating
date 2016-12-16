@@ -6,12 +6,21 @@
   margin: auto;
 
   @include cf;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
 }
 
 .content {
   width: 914px;
+  @media screen and (max-width: 800px) {
+    width: 90%;
+  }
   &._p4-1 {
     max-width: 746px;
+    @media screen and (max-width: 800px) {
+      width: 90%;
+    }
   }
 }
 
@@ -90,6 +99,11 @@
   font-family: $A65B;
   font-size: rem-calc(26);
   line-height: 56px;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+
+    font-size: rem-calc(16);
+  }
   &:hover {
     background: #2b93c4;
   }

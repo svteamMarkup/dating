@@ -1,4 +1,8 @@
 .p4-1 {
   width: 748px;
   float: right;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    float: none;
+  }
 }
