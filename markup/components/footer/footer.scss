@@ -5,6 +5,13 @@
   background: #231f20;
   font-size: rem-calc(12);
   padding: 15px;
+  &__wrapper {
+    width: 1233px;
+    margin: auto;
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+    }
+  }
   a {
     color: #fff;
   }

@@ -573,8 +573,8 @@ blockquote {
 
 body._girl {
   background: url(../images/general/girl.jpg) no-repeat;
-  background-position: center bottom;
-  background-size: cover;
+  background-position: center top;
+  background-size: auto 1100px;
 }
 
 body._gray {
@@ -650,6 +650,17 @@ body._girl-man {
   background: #231f20;
   font-size: 0.75rem;
   padding: 15px;
+}
+
+.footer__wrapper {
+  width: 1233px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__wrapper {
+    width: 100%;
+  }
 }
 
 .footer a {

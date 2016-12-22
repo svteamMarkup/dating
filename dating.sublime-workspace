@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/components/searxh-page/searxh-page.jade",
-			"settings":
-			{
-				"buffer_size": 1680,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -602,8 +593,10 @@
 	[
 		"/Users/extiser/git/svteam/dating/markup",
 		"/Users/extiser/git/svteam/dating/markup/components",
-		"/Users/extiser/git/svteam/dating/markup/components/main-content/data",
-		"/Users/extiser/git/svteam/dating/markup/components/searxh-page",
+		"/Users/extiser/git/svteam/dating/markup/components/head",
+		"/Users/extiser/git/svteam/dating/markup/components/main-content",
+		"/Users/extiser/git/svteam/dating/markup/components/reg",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner",
 		"/Users/extiser/git/svteam/dating/markup/pages",
 		"/Users/extiser/git/svteam/dating/markup/static",
 		"/Users/extiser/git/svteam/dating/markup/static/js",
@@ -611,30 +604,30 @@
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/svteam/dating/markup/components/reg/reg.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/reg/reg.scss",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/reg/reg.jade",
 		"/Users/extiser/git/svteam/dating/markup/static/scss/common.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.scss",
-		"/Users/extiser/git/svteam/dating/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.scss",
-		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.scss",
-		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/header/header.scss",
 		"/Users/extiser/git/svteam/dating/markup/pages/reg.jade",
 		"/Users/extiser/git/svteam/dating/markup/pages/searxh.jade",
 		"/Users/extiser/git/svteam/dating/markup/pages/4-1.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.jade",
 		"/Users/extiser/git/svteam/dating/markup/pages/questions.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.js",
@@ -1031,40 +1024,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/components/searxh-page/searxh-page.jade",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1680,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93,
-								122
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
