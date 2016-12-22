@@ -477,6 +477,8 @@ blockquote {
 }
 
 .white-dashed {
+  position: relative;
+  height: auto !important;
   padding: 6px;
   border-radius: 5px;
   background-color: #fff;
@@ -484,7 +486,27 @@ blockquote {
 }
 
 .white-dashed__wrapper {
-  border: 1px dashed #d6c5b3;
+  height: auto !important;
+}
+
+.white-dashed__wrapper > * {
+  position: relative;
+  z-index: 1;
+}
+
+.white-dashed__wrapper:before {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  content: "";
+  border: 2px dashed #d6c5b3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .select {
@@ -535,8 +557,8 @@ blockquote {
 
 @media screen and (max-width: 420px) {
   .button._angle {
-    background: #1559b8;
     width: 100%;
+    background: #1559b8;
   }
 }
 
@@ -1011,13 +1033,12 @@ body._girl-man {
   box-sizing: border-box;
   width: 716px;
   height: 506px;
+  padding-bottom: 50px;
   border-width: 2px;
+}
+
+.question .white-dashed__wrapper:before {
   border-radius: 8px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 800px) {
@@ -1078,14 +1099,14 @@ body._girl-man {
   left: 3px;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
   background-image: url(../images/png-sprite/96dpi/sprite.png);
   background-position: -114px -128px;
   width: 23px;
   height: 17px;
   background-size: 311px, 171px;
   background-repeat: no-repeat;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .question-checkbox._active:after {

@@ -34,13 +34,35 @@
 }
 
 .white-dashed {
+  position: relative;
+
+  height: auto !important;
   padding: 6px;
 
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(#000, .15);
   &__wrapper {
-    border: 1px dashed #d6c5b3;
+    height: auto !important;
+    & > * {
+      position: relative;
+      z-index: 1;
+    }
+    &:before {
+      position: absolute;
+      z-index: 0;
+
+      display: block;
+
+      width: calc(100% - 30px);
+      height: calc(100% - 30px);
+
+      content: "";
+
+      border: 2px dashed #d6c5b3;
+
+      @include absolute-center;
+    }
   }
 }
 
@@ -90,8 +112,9 @@
 
     @include bg($angle-btn);
     @media screen and (max-width: 420px) {
-      background: $blue;
       width: 100%;
+
+      background: $blue;
     }
   }
   &:hover {

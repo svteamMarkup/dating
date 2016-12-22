@@ -52,11 +52,13 @@
     box-sizing: border-box;
     width: 716px;
     height: 506px;
+    padding-bottom: 50px;
 
     border-width: 2px;
+    &:before {
     border-radius: 8px;
-
-    @include absolute-center;
+      
+    }
     @media screen and (max-width: 800px) {
       position: relative;
       top: 0;
@@ -121,8 +123,8 @@
 
     opacity: 0;
 
-    @include transition;
     @include bg($checkbox);
+    @include transition;
   }
   &._active {
     &:after {
