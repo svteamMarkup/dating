@@ -42,9 +42,9 @@
   &._fourth,
   &._fifth {
     .question__title {
-      margin-top: 65px;
+      padding-top: 65px;
       @media screen and (max-width: 800px) {
-        margin-top: 45px;
+        padding-top: 45px;
       }
     }
   }
@@ -57,7 +57,7 @@
     border-width: 2px;
     &:before {
     border-radius: 8px;
-      
+
     }
     @media screen and (max-width: 800px) {
       position: relative;
