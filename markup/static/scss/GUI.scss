@@ -6,18 +6,27 @@
   margin: auto;
 
   @include cf;
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
   @media screen and (max-width: 800px) {
-    width: 100%;
+    width: 90%;
   }
 }
 
 .content {
   width: 914px;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
   @media screen and (max-width: 800px) {
     width: 90%;
   }
   &._p4-1 {
     max-width: 746px;
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
     @media screen and (max-width: 800px) {
       width: 90%;
     }
@@ -71,10 +80,19 @@
   font-size: rem-calc(27);
 
   @include transition;
+  @media screen and (max-width: 420px) {
+    width: 100%;
+
+    font-size: rem-calc(16);
+  }
   &._angle {
     background-color: transparent;
 
     @include bg($angle-btn);
+    @media screen and (max-width: 420px) {
+      background: $blue;
+      width: 100%;
+    }
   }
   &:hover {
     opacity: .9;

@@ -1,8 +1,13 @@
 .footer {
-  height: 120px;
+  height: auto;
   margin-top: 35px;
-
+  color: #fff;
   background: #231f20;
+  font-size: rem-calc(12);
+  padding: 15px;
+  a {
+    color: #fff;
+  }
   &._p4-1 {
     margin-top: 0;
 

@@ -34,6 +34,11 @@
     background-color: #f1e5d7;
 
     font-family: $A55M;
+    @media screen and (max-width: 420px) {
+      padding: 12px;
+
+      font-size: rem-calc(13);
+    }
     &:before {
       left: 10px;
 
@@ -43,6 +48,9 @@
 
       @include vertical-center;
       @include bg($map-pic);
+      @media screen and (max-width: 420px) {
+        display: none;
+      }
     }
   }
 }
@@ -67,8 +75,16 @@
   @media screen and (max-width: 800px) {
     margin-top: 10px;
   }
+  @media screen and (max-width: 420px) {
+    width: 45%;
+  }
   &__img {
     margin-bottom: 5px;
+    @media screen and (max-width: 420px) {
+      img {
+        width: 100%;
+      }
+    }
   }
   &__name {
     text-decoration: none;

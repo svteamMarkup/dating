@@ -5,31 +5,71 @@
 		[
 			[
 				"marign",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"margin",
 				"margin-left"
 			],
 			[
-				"fon",
-				"font-family"
-			],
-			[
-				"re",
-				"registration-rules"
-			],
-			[
 				"pad",
 				"padding-left"
 			],
 			[
-				"back",
-				"background"
+				"que",
+				"question-checkbox"
 			],
 			[
-				"text",
-				"text-transform"
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"reg",
+				"reg-form\t(reg.scss)"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"mrgin",
+				"margin-bottom"
+			],
+			[
+				"A",
+				"A45R"
+			],
+			[
+				"border-bot",
+				"border-bottom-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"re",
+				"reg-form"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"back",
+				"background"
 			],
 			[
 				"sea",
@@ -48,16 +88,8 @@
 				"question__title"
 			],
 			[
-				"que",
-				"question-block-first\t(questions.scss)"
-			],
-			[
 				"visi",
 				"visibility"
-			],
-			[
-				"A",
-				"A65B"
 			],
 			[
 				"bord",
@@ -94,10 +126,6 @@
 			[
 				"ad",
 				"advantages__item"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"hed",
@@ -220,10 +248,6 @@
 				"text-align"
 			],
 			[
-				"in",
-				"inherit"
-			],
-			[
 				"arr",
 				"arrow-left"
 			],
@@ -254,10 +278,6 @@
 			[
 				"margi",
 				"margin-top"
-			],
-			[
-				"max",
-				"max-width"
 			],
 			[
 				"ab",
@@ -310,10 +330,6 @@
 			[
 				"m",
 				"margin-top"
-			],
-			[
-				"border-bot",
-				"border-bottom"
 			],
 			[
 				"color",
@@ -498,27 +514,20 @@
 			[
 				"po",
 				"pointStart"
-			],
-			[
-				"sum",
-				"sumTarifBack"
-			],
-			[
-				"sta",
-				"startCityFind"
-			],
-			[
-				"poin",
-				"pointFinish"
-			],
-			[
-				"fini",
-				"finishCityFind"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/components/searxh-page/searxh-page.jade",
+			"settings":
+			{
+				"buffer_size": 1680,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,6 +602,7 @@
 	[
 		"/Users/extiser/git/svteam/dating/markup",
 		"/Users/extiser/git/svteam/dating/markup/components",
+		"/Users/extiser/git/svteam/dating/markup/components/main-content/data",
 		"/Users/extiser/git/svteam/dating/markup/components/searxh-page",
 		"/Users/extiser/git/svteam/dating/markup/pages",
 		"/Users/extiser/git/svteam/dating/markup/static",
@@ -601,33 +611,36 @@
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/svteam/dating/markup/pages/searxh.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/reg/reg.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/reg/reg.scss",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/common.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.scss",
-		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.scss",
-		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.scss",
-		"/Users/extiser/git/svteam/dating/markup/static/scss/common.scss",
-		"/Users/extiser/git/svteam/dating/markup/pages/4-1.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/header/header.scss",
-		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.scss",
 		"/Users/extiser/git/svteam/dating/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/header/header.scss",
+		"/Users/extiser/git/svteam/dating/markup/pages/reg.jade",
+		"/Users/extiser/git/svteam/dating/markup/pages/searxh.jade",
+		"/Users/extiser/git/svteam/dating/markup/pages/4-1.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.jade",
 		"/Users/extiser/git/svteam/dating/markup/pages/questions.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.js",
 		"/Users/extiser/git/svteam/dating/markup/static/js/libraries/jquery-3.1.0.min.js",
 		"/Users/extiser/git/svteam/dating/markup/pages/index.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.scss",
-		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.scss",
-		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.js",
 		"/Users/extiser/git/svteam/dating/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/header/header.jade",
@@ -725,14 +738,11 @@
 		"/Users/extiser/git/sovets-pro/markup/modules/expert-ask-question/expert-ask-question.jade",
 		"/Users/extiser/git/sovets-pro/markup/pages/experts-ask-question.jade",
 		"/Users/extiser/git/sovets-pro/markup/modules/expert-ask-question/expert-ask-questionjade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-questions.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-favourite/expert-favourite.jade"
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.scss"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -748,6 +758,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"third",
 			"h1",
 			"Вернуться к оглавлению",
 			"form",
@@ -874,8 +885,7 @@
 			"-webkit-margin-before: 1em;",
 			"HelveticaNeueCyrBold",
 			"../static/images/",
-			"&--individualcreate",
-			"&--momentglory"
+			"&--individualcreate"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1021,8 +1031,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/components/searxh-page/searxh-page.jade",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								122
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
