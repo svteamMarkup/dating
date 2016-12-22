@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-bottom"
+			],
+			[
 				"marign",
 				"margin-bottom"
 			],
@@ -14,10 +18,6 @@
 			[
 				"margin",
 				"margin-left"
-			],
-			[
-				"pad",
-				"padding-left"
 			],
 			[
 				"que",
@@ -519,6 +519,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/static/scss/GUI.scss",
+			"settings":
+			{
+				"buffer_size": 2330,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/questions/questions.scss",
+			"settings":
+			{
+				"buffer_size": 4510,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,29 +611,27 @@
 	[
 		"/Users/extiser/git/svteam/dating/markup",
 		"/Users/extiser/git/svteam/dating/markup/components",
-		"/Users/extiser/git/svteam/dating/markup/components/head",
-		"/Users/extiser/git/svteam/dating/markup/components/main-content",
-		"/Users/extiser/git/svteam/dating/markup/components/reg",
-		"/Users/extiser/git/svteam/dating/markup/components/search-partner",
+		"/Users/extiser/git/svteam/dating/markup/components/questions",
 		"/Users/extiser/git/svteam/dating/markup/pages",
 		"/Users/extiser/git/svteam/dating/markup/static",
-		"/Users/extiser/git/svteam/dating/markup/static/js",
 		"/Users/extiser/git/svteam/dating/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/svteam/dating/markup/static/scss/common.scss",
+		"/Users/extiser/git/svteam/dating/markup/pages/index.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.jade",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/reg/reg.scss",
-		"/Users/extiser/git/svteam/dating/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.scss",
-		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/reg/reg.jade",
-		"/Users/extiser/git/svteam/dating/markup/static/scss/common.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.jade",
@@ -632,8 +648,6 @@
 		"/Users/extiser/git/svteam/dating/markup/pages/questions.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.js",
 		"/Users/extiser/git/svteam/dating/markup/static/js/libraries/jquery-3.1.0.min.js",
-		"/Users/extiser/git/svteam/dating/markup/pages/index.jade",
-		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.jade",
 		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.js",
 		"/Users/extiser/git/svteam/dating/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/svteam/dating/markup/components/header/header.jade",
@@ -1024,8 +1038,71 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/static/scss/GUI.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								814,
+								814
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 639.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/questions/questions.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								906,
+								906
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 871.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
